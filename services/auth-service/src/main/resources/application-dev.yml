@@ -1,0 +1,46 @@
+server:
+  port: 8081
+
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration
+
+  datasource:
+    url: jdbc:postgresql://${POSTGRES_HOST:localhost}:${POSTGRES_PORT:5433}/${POSTGRES_DB:ecommerce}
+    username: ${POSTGRES_USER:ecommerce}
+    password: ${POSTGRES_PASSWORD:ecommerce}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    
+    defer-datasource-initialization: true
+
+    show-sql: true
+
+    open-in-view: false
+
+    properties:
+      hibernate:
+        '[format_sql]': true
+        jdbc:
+          time_zone: Asia/Ho_Chi_Minh
+
+  sql:
+    init:
+      mode: never
+
+  data:
+    redis:
+      host: ${REDIS_HOST:host.docker.internal}
+      port: ${REDIS_PORT:6380}
+
+jwt:
+  secret: your-super-secret-key-your-super-secret-key-123456789
+  access-token-expiration: 86400000
+  refresh-token-expiration: 604800000
+
+services:
+  user-service:
+    url: http://localhost:8082

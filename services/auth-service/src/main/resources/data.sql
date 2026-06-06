@@ -1,0 +1,1 @@
+-- Seed data is created by AuthDataSeeder so it works across PostgreSQL and encoded passwords.
