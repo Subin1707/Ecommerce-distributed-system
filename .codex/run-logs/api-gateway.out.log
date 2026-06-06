@@ -1,0 +1,53 @@
+14:59:02,067 |-INFO in ConfigurationWatchList(mainURL=jar:nested:/E:/ecommerce-distributed-systems/services/api-gateway/target/api-gateway-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/logback-spring.xml, fileWatchList={}, urlWatchList=[}) - URL [jar:nested:/E:/ecommerce-distributed-systems/services/api-gateway/target/api-gateway-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/logback-spring.xml] is not of type file
+14:59:02,206 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@30990c1b - Adding [jar:nested:/E:/ecommerce-distributed-systems/services/api-gateway/target/api-gateway-0.0.1-SNAPSHOT.jar/!BOOT-INF/lib/spring-boot-3.4.5.jar!/org/springframework/boot/logging/logback/defaults.xml] to configuration watch list.
+14:59:02,206 |-INFO in ConfigurationWatchList(mainURL=jar:nested:/E:/ecommerce-distributed-systems/services/api-gateway/target/api-gateway-0.0.1-SNAPSHOT.jar/!BOOT-INF/classes/!/logback-spring.xml, fileWatchList={}, urlWatchList=[}) - Cannot watch [jar:nested:/E:/ecommerce-distributed-systems/services/api-gateway/target/api-gateway-0.0.1-SNAPSHOT.jar/!BOOT-INF/lib/spring-boot-3.4.5.jar!/org/springframework/boot/logging/logback/defaults.xml] as its protocol is not one of file, http or https.
+14:59:02,211 |-INFO in ch.qos.logback.core.model.processor.ConversionRuleModelHandler - registering conversion word applicationName with class [org.springframework.boot.logging.logback.ApplicationNameConverter]
+14:59:02,212 |-INFO in ch.qos.logback.core.model.processor.ConversionRuleModelHandler - registering conversion word clr with class [org.springframework.boot.logging.logback.ColorConverter]
+14:59:02,212 |-INFO in ch.qos.logback.core.model.processor.ConversionRuleModelHandler - registering conversion word correlationId with class [org.springframework.boot.logging.logback.CorrelationIdConverter]
+14:59:02,212 |-INFO in ch.qos.logback.core.model.processor.ConversionRuleModelHandler - registering conversion word esb with class [org.springframework.boot.logging.logback.EnclosedInSquareBracketsConverter]
+14:59:02,212 |-INFO in ch.qos.logback.core.model.processor.ConversionRuleModelHandler - registering conversion word wex with class [org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter]
+14:59:02,212 |-INFO in ch.qos.logback.core.model.processor.ConversionRuleModelHandler - registering conversion word wEx with class [org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter]
+14:59:02,214 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@2453f95d - value "%clr(%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX}){faint} %clr(%5p){} %clr(10764){magenta} %clr(--- %esb(){APPLICATION_NAME}%esb{APPLICATION_GROUP}[%15.15t] ){faint}%clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n%wEx" substituted for "${CONSOLE_LOG_PATTERN:-%clr(%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd'T'HH:mm:ss.SSSXXX}}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}){} %clr(${PID:-}){magenta} %clr(--- %esb(){APPLICATION_NAME}%esb{APPLICATION_GROUP}[%15.15t] ${LOG_CORRELATION_PATTERN:-}){faint}%clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}}"
+14:59:02,214 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@2453f95d - value "UTF-8" substituted for "${CONSOLE_LOG_CHARSET:-${file.encoding:-UTF-8}}"
+14:59:02,214 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@2453f95d - value "TRACE" substituted for "${CONSOLE_LOG_THRESHOLD:-TRACE}"
+14:59:02,214 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@2453f95d - value "" substituted for "${CONSOLE_LOG_STRUCTURED_FORMAT:-}"
+14:59:02,214 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@2453f95d - value "%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX} %5p 10764 --- %esb(){APPLICATION_NAME}%esb{APPLICATION_GROUP}[%t] %-40.40logger{39} : %m%n%wEx" substituted for "${FILE_LOG_PATTERN:-%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd'T'HH:mm:ss.SSSXXX}} ${LOG_LEVEL_PATTERN:-%5p} ${PID:-} --- %esb(){APPLICATION_NAME}%esb{APPLICATION_GROUP}[%t] ${LOG_CORRELATION_PATTERN:-}%-40.40logger{39} : %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}}"
+14:59:02,214 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@2453f95d - value "UTF-8" substituted for "${FILE_LOG_CHARSET:-${file.encoding:-UTF-8}}"
+14:59:02,214 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@2453f95d - value "TRACE" substituted for "${FILE_LOG_THRESHOLD:-TRACE}"
+14:59:02,214 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@2453f95d - value "" substituted for "${FILE_LOG_STRUCTURED_FORMAT:-}"
+14:59:02,216 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.catalina.startup.DigesterFactory] to ERROR
+14:59:02,217 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@44828f6b - Propagating ERROR level on Logger[org.apache.catalina.startup.DigesterFactory] onto the JUL framework
+14:59:02,218 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.catalina.util.LifecycleBase] to ERROR
+14:59:02,218 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@44828f6b - Propagating ERROR level on Logger[org.apache.catalina.util.LifecycleBase] onto the JUL framework
+14:59:02,219 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.coyote.http11.Http11NioProtocol] to WARN
+14:59:02,219 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@44828f6b - Propagating WARN level on Logger[org.apache.coyote.http11.Http11NioProtocol] onto the JUL framework
+14:59:02,219 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.sshd.common.util.SecurityUtils] to WARN
+14:59:02,219 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@44828f6b - Propagating WARN level on Logger[org.apache.sshd.common.util.SecurityUtils] onto the JUL framework
+14:59:02,219 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.apache.tomcat.util.net.NioSelectorPool] to WARN
+14:59:02,219 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@44828f6b - Propagating WARN level on Logger[org.apache.tomcat.util.net.NioSelectorPool] onto the JUL framework
+14:59:02,219 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.eclipse.jetty.util.component.AbstractLifeCycle] to ERROR
+14:59:02,219 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@44828f6b - Propagating ERROR level on Logger[org.eclipse.jetty.util.component.AbstractLifeCycle] onto the JUL framework
+14:59:02,219 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.hibernate.validator.internal.util.Version] to WARN
+14:59:02,219 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@44828f6b - Propagating WARN level on Logger[org.hibernate.validator.internal.util.Version] onto the JUL framework
+14:59:02,219 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [org.springframework.boot.actuate.endpoint.jmx] to WARN
+14:59:02,219 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@44828f6b - Propagating WARN level on Logger[org.springframework.boot.actuate.endpoint.jmx] onto the JUL framework
+14:59:02,219 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE]
+14:59:02,219 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:59:02,229 |-INFO in ch.qos.logback.core.model.processor.ModelInterpretationContext@2453f95d - value "logs/api-gateway.log" substituted for "${LOG_FILE}"
+14:59:02,232 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:59:02,273 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - No TriggeringPolicy was set for the RollingFileAppender named FILE
+14:59:02,273 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - For more information, please visit https://logback.qos.ch/codes.html#rfa_no_tp
+14:59:02,273 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+14:59:02,273 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@44828f6b - Propagating INFO level on Logger[ROOT] onto the JUL framework
+14:59:02,273 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE] to Logger[ROOT]
+14:59:02,273 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@2dbe250d - End of configuration.
+14:59:02,273 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@553f1d75 - Registering current configuration as safe fallback point
+
+   ___    ____  ____      _________ _______________  _  __
+  /   |  / __ \/  _/     / ____/   /_  __/ ____/ _ \/ |/ /
+ / /| | / /_/ // /______/ / __/ /| |/ / / __/ / , _/    / 
+/ ___ |/ ____// /_____/ /_/ / ___ / / / /___/ /|  / /| |  
+/_/  |_/_/   /___/     \____/_/  |_/_/ /_____/_/ |_/_/ |_|  
+
+E-Commerce Distributed System Gateway
+
